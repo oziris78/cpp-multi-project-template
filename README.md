@@ -37,11 +37,11 @@ Not all libraries will let you add them both statically and dynamically but the 
 1- Setup a solution with one project in it (like you did in <a href="https://github.com/oziris78/cpp-single-project-template">here</a>)  
 2- Double click on the solution's name > add > new project > empty project  
 3- Go to properties of your new static library project and in `General` change the `Configuration Type` to `Static library (.lib)` (don't forget to do this for all configurations and all platforms)  
-6- In your main project go to properties, in `C/C++ > General` add `$(SolutionDir)<YOUR_STATIC_PROJECT_NAME>\src;` to `Additional Include Directories`.  
+4- In your main project go to properties, in `C/C++ > General` add `$(SolutionDir)<YOUR_STATIC_PROJECT_NAME>\src;` to `Additional Include Directories`.  
 
 Example: `$(SolutionDir)MyStaticLibrary\src;`  
 
-7- Right click on your main project's name > add > reference > add your static library.  
+5- Right click on your main project's name > add > reference > add your static library.  
 
 
 <br>
