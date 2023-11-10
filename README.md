@@ -8,9 +8,9 @@ This is a Microsoft Visual Studio solution setup demonstrating both static and d
 
 
 It follows the following tutorials:  
-    - https://www.youtube.com/watch?v=or1dAmUO8k0
-    - https://www.youtube.com/watch?v=pLy69V2F_8M
-    - https://www.youtube.com/watch?v=Wt4dxDNmDA8  
+- https://www.youtube.com/watch?v=or1dAmUO8k0
+- https://www.youtube.com/watch?v=pLy69V2F_8M
+- https://www.youtube.com/watch?v=Wt4dxDNmDA8  
 
 
 <b>Before you watch these tutorials, make sure to take a look at <a href="https://github.com/oziris78/cpp-single-project-template">here</a> since this tutorial will use things that were explained in there.</b>
