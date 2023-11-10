@@ -76,10 +76,10 @@ Mostly same as adding a static library, the only things you'll need to do differ
 
 # Adding static libraries using source code
 
-1- Pick a library and get it's source code (header files and cpp files), for this example I will use ImGUI.
-2- Create a `vendor` folder in your `src` folder and create an `imgui` folder inside vendor folder. (Create `src/vendor/imgui`)
-3- Put your cpp files inside that imgui folder
-4- Create a folder called `imgui` inside `dependencies` and then put your header files in there within a folder called `include`
+1- Pick a library and get it's source code (header files and cpp files), for this example I will use ImGUI.  
+2- Create a `vendor` folder in your `src` folder and create an `imgui` folder inside vendor folder. (Create `src/vendor/imgui`)  
+3- Put your cpp files inside that imgui folder.  
+4- Create a folder called `imgui` inside `dependencies` and then put your header files in there within a folder called `include`  
 5- In your main project go to properties, in `C/C++ > General` add `$(SolutionDir)dependencies\imgui\include;` to `Additional Library Directories`.  
 6- In your main project go to properties, in `Linker > Input` add `opengl32.lib;` to `Additional Dependencies`. (This step is needed because of Imgui, you might not need this one depending on the library you're using)  
 
